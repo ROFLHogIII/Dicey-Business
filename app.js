@@ -32,4 +32,13 @@ $(`#I-Attack`).click(function () {
     };
 })
 
-//boxDiv.className = "flex"
+// Above & Beyond
+
+function sumDice(total, num) {
+    return total + num
+}
+
+$(`#total`).click(function () {
+    $(`#dice-total`).empty()
+    $(`<div>${diceArray.reduce(sumDice)}</div>`).appendTo(`#dice-total`)
+})
