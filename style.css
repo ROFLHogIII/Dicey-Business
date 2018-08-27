@@ -1,0 +1,11 @@
+.dice {
+    height: 5em;
+    width: 5em;
+    background-color: white;
+    border: solid 5px black;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70em;
+}
